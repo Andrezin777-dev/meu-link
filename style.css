@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(to right,slateblue, lightblue);/* Fundo moderno e escuro */
+   color: #751FFF; /* Cor do texto clara e moderna */
+   font-family: "Trebuchet MS", sans-serif;
+   text-align: center;
+ }
+ 
+ h1 {
+   color: #e6e6e6; /* Cor moderna para h1 */
+ }
+ 
+ h2 {
+   font-size: 24px;
+   color: #e6e6e6; /* Cor moderna para h2 */
+ }
+ 
+ p {
+   font-size: 1.2em;
+   line-height: 1.6em;
+   color: #e6e6e6; /* Cor moderna para textos */
+ }
+ 
+ a {
+   color: #000000; /* Cor moderna para links */
+   text-decoration: none;
+   border: 2px solid #e6e6e6;
+   padding: 10px;
+   border-radius: 10px;
+   transition:
+     background-color 0.3s,
+     color 0.3s;
+   font-size: 20px;
+   margin: 10px;
+   display: block;
+ }
+ 
+ a:hover {
+   background: linear-gradient(rgb(28, 54, 63));
+   color: #dbdce7;
+ }
+ 
+ h2 {
+   font-size: 24px;
+ }
+ img { 
+ border-radius: 60px;
+ margin-top: 10px;
+   animation: bounce 2s infinite;
+ }
+ @keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {
+     transform: translateY(0);
+   }
+   40% {
+     transform: translateY(-10px);
+   }
+   60% {
+     transform: translateY(-5px);
+   }
+ }
+
+ /* Estilos para telas menores */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+ 
